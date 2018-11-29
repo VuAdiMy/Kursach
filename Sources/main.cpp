@@ -20,7 +20,7 @@ void initWithCoder(){
 }
 
 void LoadTextures() {
-    GLuint tex_2d = SOIL_load_OGL_texture("Resources/field.png", SOIL_LOAD_AUTO, SOIL_CREATE_NEW_ID,
+    GLuint tex_2d = SOIL_load_OGL_texture("field.png", SOIL_LOAD_AUTO, SOIL_CREATE_NEW_ID,
                                           SOIL_FLAG_MIPMAPS | SOIL_FLAG_INVERT_Y | SOIL_FLAG_NTSC_SAFE_RGB |
                                           SOIL_FLAG_COMPRESS_TO_DXT);
 
